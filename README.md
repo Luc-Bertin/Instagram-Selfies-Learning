@@ -1,7 +1,7 @@
 # Training artificial neural network to recognize selfies from autoportraits 
 
 ```diff
-- This work is in progress. Also I'm still student so if you'd like to share any feedbacks or to correct me in some point, please do so ! That will always be much appreciated ! 
+- This work is in progress. Also I'm still a student so if you'd like to share any feedbacks or to correct me in some point, please do so ! That will always be much appreciated ! 
 ```
 
 ## Introduction
