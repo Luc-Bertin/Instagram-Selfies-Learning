@@ -25,7 +25,8 @@ Distinction between selfies and self-portraits is based on the definition of the
 Example :
 
 ```
-## Runnning the script looking for #faceportrait #notselfie and save it as notselfie
+""" Runnning the script looking for #faceportrait #notselfie and save it as notselfie"""
+
 python Selfie_Instagram.py faceportrait notselfie False
 ```
 
@@ -33,6 +34,7 @@ python Selfie_Instagram.py faceportrait notselfie False
 - It takes as console arguments a boolean to define whether it is a Selfie or not
 
 Here is a Selfie_Instagram.py working demo:
+
 ![demo](./img/demo.gif)
 
 ## Results
@@ -41,8 +43,10 @@ From the scrapping part only, here is a demo of what we can expect so far.
 You will find more detailed explanations inside python files itself.
 
 
-* Expected data before cleaning : 
+* Expected data before cleaning :
+
 ![unfiltered](./img/unfiltered_data.png)
 
 * After Cleaning :
+
 ![demo](./img/cleaned_data2.png)
