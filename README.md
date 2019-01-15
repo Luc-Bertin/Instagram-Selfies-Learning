@@ -33,12 +33,11 @@ It ends with a boolean : True if the file needs to be save as selfie or False if
 * *CleaningPhotos.py* cleans saved images. 
 It takes as console arguments a boolean to define whether it is a Selfie or not
 
-Example :
-Runnning the script looking for #faceportrait #notselfie and save it as notselfie
+**Example** :
+Runnning these 2 scripts look for #faceportrait #notselfie and save it as notselfie and clean downloaded photos
 ```
 python Selfie_Instagram.py faceportrait notselfie False
 ```
-And cleans downloaded photos 
 ```
 python CleaningPhotos.py False
 ```
