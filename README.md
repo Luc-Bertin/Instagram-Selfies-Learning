@@ -45,4 +45,4 @@ You will find more detailed explanations inside python files itself.
 ![unfiltered](./img/unfiltered_data.png)
 
 * After Cleaning :
-![demo](./img/cleaned_data2)
+![demo](./img/cleaned_data2.png)
