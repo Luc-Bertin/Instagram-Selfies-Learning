@@ -42,7 +42,7 @@ You will find more detailed explanations inside python files itself.
 
 
 * Expected data before cleaning : 
-![demo](./img/unfiltered_data)
+![unfiltered](./img/unfiltered_data.png)
 
 * After Cleaning :
-![demo](./img/unfiltered_data)
+![demo](./img/cleaned_data2)
