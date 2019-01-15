@@ -21,7 +21,7 @@ To retrieve data, an Instagram account has been created. Explicit waiting condit
 Once done, a loop allows automatic scrolling, based on the previous and next height difference. The scrolling stops if we apply a limit, or if the previous and next height are the same (= the browser has arrived at the bottom of the page), this elegant approach is based on a Stackoverflow thread — (See Selfie_Instagram.py code). The number of function calls allowing the recording of the photos locally is recorded, and thus makes it possible to deduce the names accordingly.
 
 ### Cleaning data :
-    To maximize the homogeneity and cleanliness of the large number of collected data, it was decided to keep only images in which the face of the person is front or slightly inclined using haarcascade_frontalface_default.xml OpenCV haar cascade classifier.
+To maximize the homogeneity and cleanliness of the large number of collected data, it was decided to keep only images in which the face of the person is front or slightly inclined using haarcascade_frontalface_default.xml OpenCV haar cascade classifier.
 
 Also, the face of the photographed person must cover a large part of the image, with an area fixed strictly greater than 15% of the image. This avoids pictures taken too far from the camera lens, selfie or not; as well as a second significant advantage in the case of multiple faces detected (by errors or not) and keeps the image only in the case where the widest face is greater than this treshold of 15%.
 Any photo that does not respect the aforementionned conditions is simply deleted from the final database. Cleaning, on average, only keeps ⅓ of all initial downloaded photos.
