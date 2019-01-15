@@ -16,9 +16,33 @@ Following the hasthag #faceportrait and #selfies, I am going to scrape a certain
 
 Distinction between selfies and self-portraits is based on the definition of the former : "A selfie is a self-portrait photograph taken with a **hand-held** digital camera or camera phone".
 
+
+## How to use it 
+* *Selfie_Instagram.py* retrieve images from Instagram
+- It takes as console arguments as much as hashtags names as you want
+- It ends with a boolean : True if the file needs to be save as selfie or False if it's not.
+
+Example :
+
+```
+## Runnning the script looking for #faceportrait #notselfie and save it as notselfie
+python Selfie_Instagram.py faceportrait notselfie False
+```
+
+* *CleaningPhotos.py* clean saved images
+- It takes as console arguments a boolean to define whether it is a Selfie or not
+
+Here is a Selfie_Instagram.py working demo:
+![demo](./img/demo.gif)
+
 ## Results
 
 From the scrapping part only, here is a demo of what we can expect so far. 
 You will find more detailed explanations inside python files itself.
 
-![demo](./img/demo.gif)
+
+* Expected data before cleaning : 
+![demo](./img/unfiltered_data)
+
+* After Cleaning :
+![demo](./img/unfiltered_data)
