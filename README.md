@@ -39,8 +39,9 @@ Example :
 python Selfie_Instagram.py faceportrait notselfie False
 ```
 
-* *CleaningPhotos.py* clean saved images
-- It takes as console arguments a boolean to define whether it is a Selfie or not
+* *CleaningPhotos.py* cleans saved images. It takes as console arguments a boolean to define whether it is a Selfie or not
+
+## Demo 
 
 Here is a Selfie_Instagram.py working demo:
 
