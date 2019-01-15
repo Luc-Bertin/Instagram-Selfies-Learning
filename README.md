@@ -30,16 +30,18 @@ Any photo that does not respect the aforementionned conditions is simply deleted
 * *Selfie_Instagram.py* retrieve images from Instagram
 It takes as console arguments as much as hashtags names as you want
 It ends with a boolean : True if the file needs to be save as selfie or False if it's not.
+* *CleaningPhotos.py* cleans saved images. 
+It takes as console arguments a boolean to define whether it is a Selfie or not
 
 Example :
-
+Runnning the script looking for #faceportrait #notselfie and save it as notselfie
 ```
-""" Runnning the script looking for #faceportrait #notselfie and save it as notselfie"""
-
 python Selfie_Instagram.py faceportrait notselfie False
 ```
-
-* *CleaningPhotos.py* cleans saved images. It takes as console arguments a boolean to define whether it is a Selfie or not
+And cleans downloaded photos 
+```
+python CleaningPhotos.py False
+```
 
 ## Demo 
 
