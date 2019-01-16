@@ -27,7 +27,7 @@ Also, the face of the photographed person must cover a large part of the image, 
 
 
 <p align="center">
-<img width="300" height="300" src="./img/cleaning_img2.png">
+<img width="220" height="220" src="./img/cleaning_img2.png">
 </p>
 
 
@@ -55,7 +55,7 @@ python CleaningPhotos.py False
 Here is a Selfie_Instagram.py working demo:
 
 <p align="center">
-<img width="1400" height="800" src="./img/demo.gif">
+<img width="900" height="500" src="./img/demo.gif">
 </p>
 
 
