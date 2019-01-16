@@ -25,18 +25,14 @@ To maximize the homogeneity and cleanliness of the large number of collected dat
 
 Also, the face of the photographed person must cover a large part of the image, with an area fixed strictly greater than 15% of the image. This avoids pictures taken too far from the camera lens, selfie or not; as well as a second significant advantage in the case of multiple faces detected (by errors or not) and keeps the image only in the case where the widest face is greater than this treshold of 15%.
 
-![cleaning_process](./img/cleaning_img1.png)
+
+<p align="center">
+<img width="300" height="300" src="./img/cleaning_img2.png">
+</p>
+
 
 Any photo that does not respect the aforementionned conditions is simply deleted from the final database. Cleaning, on average, only keeps ⅓ of all initial downloaded photos.
 
-<p align="center">
-<img width="150" height="150" src="./img/cleaning_img2.png">
-</p>
-
-<p align="center">
-<img width="150" height="150" src="https://github.com/Luc-Bertin/Instagram-Selfies-Learning/blob/master/img/cleaning_img2.png">
-</p>
-![cleaning_process](./img/cleaning_img2.png)
 
 ## How to use it 
 * *Selfie_Instagram.py* retrieve images from Instagram
@@ -57,6 +53,11 @@ python CleaningPhotos.py False
 ## Demo 
 
 Here is a Selfie_Instagram.py working demo:
+
+<p align="center">
+<img width="1400" height="800" src="./img/demo.gif">
+</p>
+
 
 ![demo](./img/demo.gif)
 
