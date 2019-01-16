@@ -29,6 +29,13 @@ Also, the face of the photographed person must cover a large part of the image, 
 
 Any photo that does not respect the aforementionned conditions is simply deleted from the final database. Cleaning, on average, only keeps ⅓ of all initial downloaded photos.
 
+<p align="center">
+<img width="150" height="150" src="./img/cleaning_img2.png">
+</p>
+
+<p align="center">
+<img width="150" height="150" src="https://github.com/Luc-Bertin/Instagram-Selfies-Learning/blob/master/img/cleaning_img2.png">
+</p>
 ![cleaning_process](./img/cleaning_img2.png)
 
 ## How to use it 
