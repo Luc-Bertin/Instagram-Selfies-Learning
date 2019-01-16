@@ -24,7 +24,12 @@ Once done, a loop allows automatic scrolling, based on the previous and next hei
 To maximize the homogeneity and cleanliness of the large number of collected data, it was decided to keep only images in which the face of the person is front or slightly inclined using haarcascade_frontalface_default.xml OpenCV haar cascade classifier.
 
 Also, the face of the photographed person must cover a large part of the image, with an area fixed strictly greater than 15% of the image. This avoids pictures taken too far from the camera lens, selfie or not; as well as a second significant advantage in the case of multiple faces detected (by errors or not) and keeps the image only in the case where the widest face is greater than this treshold of 15%.
+
+![cleaning_process](./img/cleaning_img1.png)
+
 Any photo that does not respect the aforementionned conditions is simply deleted from the final database. Cleaning, on average, only keeps ⅓ of all initial downloaded photos.
+
+![cleaning_process](./img/cleaning_img2.png)
 
 ## How to use it 
 * *Selfie_Instagram.py* retrieve images from Instagram
