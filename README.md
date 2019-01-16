@@ -27,7 +27,7 @@ Also, the face of the photographed person must cover a large part of the image, 
 
 
 <p align="center">
-<img width="200" height="200" src="./img/cleaning_img2.png">
+<img width="170" height="170" src="./img/cleaning_img2.png">
 </p>
 
 
