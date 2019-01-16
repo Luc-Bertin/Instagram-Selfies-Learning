@@ -55,11 +55,9 @@ python CleaningPhotos.py False
 Here is a Selfie_Instagram.py working demo:
 
 <p align="center">
-<img width="900" height="500" src="./img/demo.gif">
+<img width="980" height="500" src="./img/demo.gif">
 </p>
 
-
-![demo](./img/demo.gif)
 
 ## Results
 
